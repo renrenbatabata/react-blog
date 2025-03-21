@@ -1,0 +1,21 @@
+.list{
+    display: flex;
+    gap: 1.5em;
+    font-size: var(--icon-size,24px);
+    margin-top: .5em;
+}
+
+.list svg {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+.srOnly {
+    position: absolute;
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+}

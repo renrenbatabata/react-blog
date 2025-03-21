@@ -1,0 +1,22 @@
+.list{
+    display: flex;
+    gap: 2em;
+}
+
+/* hover可能な場合 */
+@media (hover:hover){
+    .list li:hover{
+        color: var(--accent);
+    }
+}
+
+/* hover不可（タッチ）デバイスの場合 */
+@media(hover:none){
+    .list li{
+        -webkit-tap-highlight-color:transparent;
+    }
+}
+
+.list li :active {
+    color:var(--accent)
+}
